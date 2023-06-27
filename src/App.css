@@ -1,0 +1,35 @@
+.pulse {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(#D1E6A5,#E5F1CC);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 50px;
+  animation: pulse 1500ms infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #D1E6A5;
+  }
+  100%{
+    box-shadow: 0 0 0 17px #E5F1CC;
+  }
+}
+
+.greenDot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #7FB900;
+  display: grid;
+  place-items: center;
+  font-size: 50px;
+}
